@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+ /* ------------------------- HEADER ------------------------------*/
+.header {
+  background-color: #009B92;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-top: 16px;
+  padding-bottom: 64px;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+
+}
+
+.left, .right {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  flex: 0 1 auto;
+}
+
+.left {
+  padding-left: 64;
+}
+
+.logo {
+  margin-right: auto;
+  padding-top:4px;
+  font-size: 24;
+  color: greenyellow;
+  align-self: center;
+}
+
+.links {
+  align-self: flex-end;
+}
+
+ul {
+  list-style-type: none;  /*removes dots in list*/
+  padding-inline-start: 0px;  /*removes left padding of list*/
+
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+a {
+  color: white;
+  padding: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.bottom img {
+  height: 300px;
+  width: auto;
+  border-radius: 16px;
+  border: solid 2px darkblue;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.bottom .text {
+  font-size: 20px;
+  text-align: left;
+}
+
+button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 12px;
+}
+
+/* ---------------------------- INFORMATION -------------------------- */
+.info {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  padding: 16px;
+  font-size: 25px;
+}
+
+.boxes {
+  padding-bottom: 64px;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+
+  flex: 1 0 auto;
+}
+
+.minibox{
+  height: 300px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+img {
+  text-shadow: 4px 4px;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  border: solid 2px darkblue;
+  
+
+  flex: 0 0 auto;
+}
+
+.minibox .text{
+  text-align: center;
+  color: grey;
+
+  flex: 1 1 auto;
+}
+
+/* ------------------------------- QUOTE ------------------------------ */
+.insp-quote {
+  padding: 64px 300px;
+  background-color: #B1F1ED;
+  text-align: center;
+  font-size: 20px;
+}
+
+.author {
+  text-align: end;
+  font-weight: bold;
+}
+
+/* -------------------------- sign up button -------------------------- */
+.sign-up {
+  background-color: white;
+  text-align: center;
+}
+
+.content {
+  border-radius: 4px;
+  background-color: #69F9AE;
+  margin: 64px 128px;
+  padding: 32px 64px;
+
+  display: flex;
+  align-items: center;
+}
+
+.content .text {
+  text-align: left;
+  flex: 2 1 auto;
+}
+
+.content button {
+  flex: 1 1 auto;
+}
+
+h2 {
+  margin-block-end: 8px;
+}
+
+/* ----------------------------- FOOTER -------------------------------- */
+.footer {
+  background-color: #009B92;
+  text-align: center;
+  padding: 16px;
+
+  flex: 1 1 auto;
+}
+
+
+
